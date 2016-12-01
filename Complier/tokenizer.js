@@ -7,7 +7,7 @@ function tokenizer(input) {
 	var tokens = []
 
 	// 构建一个while循环来遍历代码
-	while (currentIndex < input.lenght) {
+	while (currentIndex < input.length) {
 		// 用来存储当前位置的字符
 		var char = input[currentIndex]
 
